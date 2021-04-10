@@ -1,0 +1,117 @@
+.center{
+    display:flex;
+    flex-direction:column;
+    padding: 0 40px;
+}
+.center__header{
+    display:flex;
+    justify-content:center;
+    margin-top: 80px;
+
+}
+.center__headerbox {
+    display: flex;
+    align-items: center;
+}
+.center__headerbox > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 15%;
+}
+.center__headerbox > h1{
+    line-height: 40px;
+    font-size: 32px;
+    font-weight: normal;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+.center__headerbox > p{
+    padding: 8px 12px;
+    background-color: #EEEEEE;
+    border-radius: 500px;
+    line-height: 16px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-right:8px;
+
+}
+.center__headerbox > p > .MuiSvgIcon-root{
+    width: 16px !important;
+    height: 16px !important;
+}
+.center__headerbox > p > span {
+    margin-left: 8px;
+}
+.center__center{
+
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.center__footer{
+    margin-top: 80px;
+
+}
+.city__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.city__header > h3{
+    line-height: 44px;
+    font-size: 36px;
+    font-weight: normal;
+}
+.city__header > h2{
+    cursor: pointer;
+    text-decoration: underline;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000000;
+}
+.city__map{
+    margin-top: 24px;
+}
+.city__map > iframe{
+    width: 100% !important;
+}
+.city__citylist{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 24px;
+    grid-template-rows: repeat(6,1fr);
+    margin-top: 24px;
+}
+.city__citylist > p {
+    font-size:16px;
+    cursor: pointer;
+    line-height: 24px;
+    font-weight: normal;
+}
+.center__footercountry{
+    margin-top: 80px;
+}
+.center__footercountry > h3{
+    line-height: 44px;
+    font-size: 36px;
+    font-weight: normal;
+
+}
+.country__countrylist{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 24px;
+    grid-template-rows: repeat(6,1fr);
+    margin-top: 24px;
+
+}
+.country__countrylist > p {
+    font-size:16px;
+    cursor: pointer;
+    line-height: 24px;
+    font-weight: normal;
+}
+
